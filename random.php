@@ -8,6 +8,7 @@ function bid() {
   if (($bid % 10) === 0) {
     $bid += 123;
   }
+  echo $bid;
 }
 
 bid();
@@ -15,4 +16,15 @@ bid();
 // unchanged because $bid inside function is local
 // need to return a value
 echo $bid;
+
+function fib($n) {
+  if ($n <= 2) {
+    return 1;
+  } else {
+    return fib($n - 1) + fib($n - 2);
+  }
+}
+
+echo fib(12);
+
 ?>
