@@ -1,0 +1,8 @@
+28 apr 2016
+===========
+file:///C:/Users/Heitor/Desktop/programming/php/php-manual/2016_04_28/manual/tutorial.useful.html
+
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== False) {
+    echo "You are using Internet Explorer.";
+}
+
