@@ -1,0 +1,13 @@
+28 apr 2016
+===========
+file:///C:/Users/Heitor/Desktop/programming/php/php-manual/2016_04_28/manual/tutorial.useful.html
+
+if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== False) {
+    echo "You are using Internet Explorer.";
+}
+
+29 apr 2016
+===========
+file:///C:/Users/Heitor/Desktop/programming/php/php-manual/2016_04_28/manual/language.namespaces.definition.html
+
+Namespaces only affect classes (including abstracts and traits), interfaces, functions, and constants
