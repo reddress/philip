@@ -1,3 +1,4 @@
 28 apr 2016 file:///C:/Users/Heitor/Desktop/programming/php/php-manual/2016_04_28/manual/language.basic-syntax.phptags.html
 
-
+Modern PHP
+22 may 2016 p. 45 Zend OPcache
