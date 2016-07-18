@@ -1,6 +1,8 @@
 <?php
 
-//create multidimentional array
+// this is a Stack Overflow question
+
+//create multidimensional array
 $distribution = array
 (
 array(115, 50, 15, 0),
