@@ -41,3 +41,12 @@ echo "$s is a " . gettype($s);
 <p>
   To convert a variable, cast it or use settype()
 </p>
+
+<pre>
+file:///C:/Users/Heitor/Desktop/programming/php/manual/2016_07_18/php-chunked-xhtml/language.types.null.html
+
+NULL is the only possible value of the type 'null'.
+
+A variable is null if it has been assigned NULL, if it has has not been
+set to any value, or if it has been unset().
+
