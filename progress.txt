@@ -3,3 +3,5 @@
 Modern PHP
 22 may 2016 p. 45 Zend OPcache
 23 may 2016 p. ? Passwords
+
+jul 2016 - see manual/progress.txt
