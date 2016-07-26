@@ -54,3 +54,7 @@ if ($f) {
   }
   ?>
 </p>
+
+<?php
+var_dump((bool) 1);
+?>
