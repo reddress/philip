@@ -9,3 +9,6 @@ file:///C:/Users/Heitor/Desktop/programming/php/manual/2016_07_18/php-chunked-xh
 
 26 jul 2016
 file:///C:/Users/Heitor/Desktop/programming/php/manual/2016_07_18/php-chunked-xhtml/functions.arguments.html
+
+27 jul 2016
+file:///home/heitor/programming/php/manual/php-chunked-xhtml/language.oop5.traits.html
