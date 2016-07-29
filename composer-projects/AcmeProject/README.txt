@@ -1,0 +1,3 @@
+Run:
+
+composer dump-autoload
