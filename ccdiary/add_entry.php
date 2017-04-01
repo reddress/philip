@@ -19,7 +19,7 @@ if ($_POST['amount'] == "" || $_POST['ord'] == "" || $_POST['who'] == "") {
         ':ord' => $_POST['ord'],
         ':type' => $_POST['type'],
         ':who' => $_POST['who'],
-        ':day' => $_POST['day'],
+        ':day' => $date,
     ]);
 
     header("Location: index.php");
