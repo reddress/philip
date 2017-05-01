@@ -128,10 +128,10 @@ $all_rows = $stmt->fetchAll();
     
     foreach ($all_rows as $row) {
         echo("<tr>");
-        echo("<td>{$row['ord']}</td>");
         echo("<td>{$row['type']}</td>");
         echo("<td>{$row['who']}</td>");
         echo("<td>" . getWeekday($row['day']) . "</td>");
+        echo("<td>({$row['ord']})</td>");
         echo("<td>{$row['day']}</td>");
         echo("<td>" . visualize($row['amount']) . "</td>");
         echo("</tr>");
