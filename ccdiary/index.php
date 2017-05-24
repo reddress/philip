@@ -28,6 +28,7 @@ Add entry:
                 <select name="type">
                     <option value="pic">pic</option>
                     <option value="vid">vid</option>
+                    <option value="live">live</option>
                 </select>
             </td>
             <td><input type="text" name="who"></td>
