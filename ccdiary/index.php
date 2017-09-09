@@ -99,7 +99,7 @@ Add entry:
 All entries
 <?php
 $show_all_sql = "
-SELECT amount, ord, type, who, day FROM my_ccdiary ORDER BY day DESC
+SELECT amount, ord, type, who, day FROM my_ccdiary ORDER BY day DESC, ord DESC
 ";
 
 $stmt = $dbh->query($show_all_sql);
