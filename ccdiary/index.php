@@ -134,6 +134,7 @@ $all_rows = $stmt->fetchAll();
         echo("<td>" . getWeekday($row['day']) . "</td>");
         echo("<td>({$row['ord']})</td>");
         echo("<td>{$row['day']}</td>");
+        echo("<td>{$row['type']}</td>");
         echo("<td>" . visualize($row['amount']) . "</td>");
         echo("</tr>");
     }
@@ -165,6 +166,7 @@ $all_rows = $stmt->fetchAll();
         echo("<td>{$row['who']}</td>");
         echo("<td>" . getWeekday($row['day']) . "</td>");
         echo("<td>{$row['day']}</td>");
+        echo("<td>{$row['type']}</td>");
         echo("<td>" . visualize($row['amount']) . "</td>");
         echo("</tr>");
     }
