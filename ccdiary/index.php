@@ -1,3 +1,11 @@
+<head>
+    <style>
+        td {
+        border-bottom: 1px solid #aaa;
+        }
+    </style>
+</head>
+
 <?php
 
 // place real credentials in db_config.php
@@ -132,10 +140,14 @@ $all_rows = $stmt->fetchAll();
         echo("<td>{$row['type']}</td>");
         echo("<td>{$row['who']}</td>");
         echo("<td>" . getWeekday($row['day']) . "</td>");
-        echo("<td>({$row['ord']})</td>");
         echo("<td>{$row['day']}</td>");
         echo("<td>{$row['type']}</td>");
         echo("<td>" . visualize($row['amount']) . "</td>");
+        if ($row['ord'] != 1) {
+            echo("<td>{$row['ord']}</td>");
+        } else {
+            echo("<td>&nbsp;</td>");
+        }
         echo("</tr>");
     }
 
@@ -157,8 +169,10 @@ $all_rows = $stmt->fetchAll();
 SELECT amount, type, who, day FROM my_ccdiary WHERE ord = 1 ORDER BY day DESC
 ";
 
-$stmt = $dbh->query($first_only_sql);
-$all_rows = $stmt->fetchAll();
+
+    /*
+    $stmt = $dbh->query($first_only_sql);
+    $all_rows = $stmt->fetchAll();
 
     foreach ($all_rows as $row) {
         echo("<tr>");
@@ -171,6 +185,7 @@ $all_rows = $stmt->fetchAll();
         echo("</tr>");
     }
 
+    */
     ?>
 
 </table>
